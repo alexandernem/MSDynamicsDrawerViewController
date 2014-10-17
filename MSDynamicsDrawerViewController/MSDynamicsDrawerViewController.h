@@ -305,6 +305,13 @@ typedef NS_ENUM(NSInteger, MSDynamicsDrawerPaneState) {
  */
 @property (nonatomic, assign, readonly) MSDynamicsDrawerDirection possibleDrawerDirection;
 
+
+/**
+ The directions that the `Drawer` is opened in.
+ 
+ */
+@property (nonatomic, assign, readonly) MSDynamicsDrawerDirection currentDrawerDirection;
+
 ///-------------------------------------
 /// @name Configuring Dynamics Behaviors
 ///-------------------------------------
